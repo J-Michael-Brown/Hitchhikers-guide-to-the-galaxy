@@ -1,8 +1,15 @@
 import React from "react";
 
-function Header(){
+function Header(props) {
+  let headerStyles = {
+    borderStyle: 'solid',
+    borderColor: 'red',
+    textAlign: 'center'
+  }
   return (
-    <h1>Help Computer</h1>
+    <div style={headerStyles}>
+    <h1>Don't Panic</h1>
+    </div>
   );
 }
 

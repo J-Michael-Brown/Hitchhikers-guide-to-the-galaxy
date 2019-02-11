@@ -9,8 +9,8 @@
     "babel-loader": "7.0.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
-    "react": "15.5.4",
-    "react-dom": "15.5.4",
+    "react": "^16.8.1",
+    "react-dom": "16.8.1",
     "webpack": "3.4.0"
   },
   "devDependencies": {
@@ -21,6 +21,6 @@
   "description": "<span style=\"color:black\">some *blue* text</span>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":  "webpack-dev-server"
+    "start": "webpack-dev-server"
   }
 }
